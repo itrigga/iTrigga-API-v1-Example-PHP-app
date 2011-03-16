@@ -1,0 +1,26 @@
+.pagination span, .pagination strong, .pagination a {
+	margin-right: 0.5em;
+}
+
+dl.metadata dd, dl.metadata dt, 
+dl.metadata dd ul, dl.metadata dd ul li {
+	display: inline;
+	margin-left: 0;
+	padding: 0;
+	width: auto;
+}
+dl.metadata dd {
+	margin: 0 0.5em;
+}
+
+ul.tags li {
+	list-style-type: none;
+	display: inline;
+	margin: 0.5em;
+}
+.tag-size-0 { font-size: 50%; }
+.tag-size-1 { font-size: 80%; }
+.tag-size-2 { font-size: 100%; }
+.tag-size-3 { font-size: 120%; }
+.tag-size-4 { font-size: 150%; }
+.tag-size-5 { font-size: 150%; font-weight: bold;}
