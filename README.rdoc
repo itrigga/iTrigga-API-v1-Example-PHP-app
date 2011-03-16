@@ -1,0 +1,32 @@
+=begin rdoc
+= iTrigga API V1 Example PHP App
+
+This is a really simple application, designed to show an easy way of integrating with the iTrigga API via PHP.
+
+Notes:
+* There is virtually no styling - it's not intended to be visually stunning, just easy to understand.
+* This app ships with an example iTrigga API key that enables you to access data from the example site at http://parishilton.itrigga.com
+* If you have your own site_key & api_key, just change the values at the bottom of common.php.
+ 
+
+The code is structured as follows:
+
+[common.php]	utility methods for pagination, plus setup of the global $site_key and $api_key variables
+[itrigga_api.php]	this contains utility methods to make it easier to call the API.
+[itrigga_rendering.php]	code to generate simple example html for pagination, an item summary, and a tag cloud.
+
+[index.php]	shows the available channels, and the top tags across all channels
+[channel.php] shows a paginated list of the items in a given channel, and the top tags within the channel
+[tag.php] shows a list of items tagged with the given term
+[item.php] shows an example full item page
+
+If you have any questions, problems, suggestions, or comments in general, please feel free to log an issue, contact me directly through the GitHub messaging system, or email us at support AT itrigga.com
+
+Happy coding!
+
+Al Davidson,
+iTrigga CTO
+---
+
+
+=end
