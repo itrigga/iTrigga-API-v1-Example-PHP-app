@@ -1,4 +1,3 @@
-=begin rdoc
 = iTrigga API V1 Example PHP App
 
 This is a really simple application, designed to show an easy way of integrating with the iTrigga API via PHP.
@@ -26,7 +25,3 @@ Happy coding!
 
 Al Davidson,
 iTrigga CTO
----
-
-
-=end
